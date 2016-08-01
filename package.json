@@ -1,0 +1,24 @@
+{
+  "name": "calvad_census_schema",
+  "version": "1.0.0",
+  "description": "Sqitch code for census schema for census detectors and data",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap"
+      ,"sqitch:deploy" : "sqitch deploy ${SQITCH_DB_URI}"
+      ,"sqitch:revert" : "sqitch revert ${SQITCH_DB_URI}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmarca/calvad_census_schema.git"
+  },
+  "author": "James E. Marca",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/jmarca/calvad_census_schema/issues"
+  },
+  "homepage": "https://github.com/jmarca/calvad_census_schema#README"
+}
